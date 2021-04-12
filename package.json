@@ -1,0 +1,19 @@
+{
+  "name": "cypressqa",
+  "version": "1.0.0",
+  "description": "Cypress Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cypress",
+    "CI-CD",
+    "cucumber"
+  ],
+  "author": "Mariela",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.0.0"
+  }
+}
