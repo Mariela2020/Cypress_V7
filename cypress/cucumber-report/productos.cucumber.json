@@ -23,7 +23,7 @@
             "name": "El usuario se encuentra en la página de Gestión Corredor y Hace click sobre el Entrar",
             "result": {
               "status": "passed",
-              "duration": 31704000000
+              "duration": 18779000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Debe iniciar cuenta con credenciales de corredor valido",
             "result": {
               "status": "passed",
-              "duration": 14774000000
+              "duration": 21376000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "Hace click sobre el link Producto",
             "result": {
               "status": "passed",
-              "duration": 164000000
+              "duration": 484000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "Visualiza los productos y selecciona la tarjeta del producto a contratar",
             "result": {
               "status": "passed",
-              "duration": 551000000
+              "duration": 726000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "Cuando el usuario Selecciona el producto a Contratar",
             "result": {
               "status": "passed",
-              "duration": 666000000
+              "duration": 1356000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "Se verifica los datos almacenado en cada formulario",
             "result": {
               "status": "passed",
-              "duration": 3232000000
+              "duration": 3568000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC",
             "result": {
               "status": "passed",
-              "duration": 177000000
+              "duration": 459000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "Hace click al botón Enviar",
             "result": {
               "status": "passed",
-              "duration": 155000000
+              "duration": 353000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "Se debe redireccionar al Detalle del contrato y visualizar medio de pago disponibles",
             "result": {
               "status": "passed",
-              "duration": 5534000000
+              "duration": 7779000000
             }
           }
         ]

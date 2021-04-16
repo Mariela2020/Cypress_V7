@@ -15,7 +15,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
     cy.get('.inicia > .col-12 > .plan-btn > .btn').click({force:true})
   });
 
-  When('Registrar Usuario',()=>{
+  When('Registra el Usuario',()=>{
     cy.get('#nombreUser').type('Mariela Hurtado')
     cy.get('#telefonoUser').type('+56993947209')
     cy.get('#emailUser').type('hurtadomariela2@gmail.com')
@@ -42,20 +42,23 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
 
   And('Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC del Plan',()=>{
     cy.get('#aceptaTerminos').click()
-  });
-
-  And('Darle click al boton Enviar',()=>{
     cy.get('.btn-danger').click()
+    cy.wait(3000)
+
   });
 
-  Then('Se debe redireccionar a la página Detalle del contrato del plan a contratar',()=>{
-    
-   // cy.get('.title > :nth-child(2)'.should('be.visible').and('contain','paso 4/4'))
-    cy.get('.btn'.click())
-    //cy.get('div.pago__Productos__Extra__detalle.contenedor-padre:nth-child(4) section.flujo__pago div.container.detallePago div.row.detalle__datos:nth-child(5) div.btn-next.col-12 a.btn.btn-danger.button.btn-block > span:nth-child(1)').click()
+  And('Visualizar el Detalle del contrato del plan a contratar',()=>{
+
+    //cy.get('#verDetalle').click()
+    cy.get('div.pago__Productos__Extra__detalle.contenedor-padre:nth-child(4) section.flujo__pago div.container.detallePago div.row.detalle__datos:nth-child(5) div.btn-next.col-12 a.btn.btn-danger.button.btn-block > span:nth-child(1)').click()
     cy.get('.modal-footer > .btn').click()
-  //  cy.get('.modal-footer > .btn').click()
+      
+  });
+
+  Then('Visualizar el Detalle de Pago y medio disponible', ()=>{
+     
     cy.url().should('include', 'https://ventas.toctoc.com/')
+
   });
  
   
