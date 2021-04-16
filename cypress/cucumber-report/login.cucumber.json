@@ -23,7 +23,7 @@
             "name": "El usuario esta en la página de Toctoc y Hace click sobre el mensaje desplegado",
             "result": {
               "status": "passed",
-              "duration": 28904000000
+              "duration": 27058000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Hacer click al botón Entrar",
             "result": {
               "status": "passed",
-              "duration": 5143000000
+              "duration": 5234000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "Ingresa los credenciales valida del usuario",
             "result": {
               "status": "passed",
-              "duration": 135000000
+              "duration": 221000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "El sistema da la bienvenida al usuario",
             "result": {
               "status": "passed",
-              "duration": 6833000000
+              "duration": 12691000000
             }
           }
         ]

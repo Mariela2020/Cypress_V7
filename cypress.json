@@ -4,5 +4,7 @@
  
   "testFiles": "**/*.feature",
     
-  "projectId": "ojf9ec"
+  "projectId": "ojf9ec",
+
+  "video":false
 }
