@@ -4,7 +4,9 @@
   "description": "Cypress Automation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:dashboard": "cypress run --record --key 1f59ceae-3fd6-40e5-9073-5c8d1aba265d"
   },
   "keywords": [
     "Cypress",
@@ -14,6 +16,18 @@
   "author": "Mariela",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.0.0"
+    "cucumber-html-reporter": "^5.4.0",
+    "cypress": "^7.0.0",
+    "cypress-cucumber-preprocessor": "^4.0.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/features/step_definitions/**/",
+    "cucumberJson": {
+        "generate": true,
+        "outputFolder": "cypress/cucumber-report",
+        "filePrefix": "",
+        "fileSuffix": ".cucumber"
+      }
+    }
   }
-}
+

@@ -1,1 +1,8 @@
-{}
+{
+  "experimentalNetworkStubbing": true,
+  "chromeWebSecurity": false,
+ 
+  "testFiles": "**/*.feature",
+    
+  "projectId": "ojf9ec"
+}
