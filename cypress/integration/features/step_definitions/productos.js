@@ -59,7 +59,7 @@ Then('Se debe redireccionar al Detalle del contrato y visualizar medio de pago d
 
     cy.get('.title > :nth-child(2)').should('be.visible').and('contain','paso 3/3')
     // cy.wait(3000)
-    cy.get('.btn').click()
+    cy.get('.btn').click({force: true})
     cy.title().should('eq','Pago de servicios')
 
 });
