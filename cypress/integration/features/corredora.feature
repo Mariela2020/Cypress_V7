@@ -24,7 +24,11 @@ Feature: Catalogo de Planes - Productos Marketing
       And Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC del Plan
       And Visualizar el Detalle del contrato del plan a contratar
      Then Visualizar el Detalle de Pago y medio disponible
-   
+
+
+ 
+
+
 
 
 
