@@ -58,6 +58,7 @@ And('Hace click al botón Enviar', ()=>{
 Then('Se debe redireccionar al Detalle del contrato y visualizar medio de pago disponibles', ()=>{
 
     cy.get('.title > :nth-child(2)').should('be.visible').and('contain','paso 3/3')
+    cy.wait(3000)
     cy.get('.btn').click()
     cy.title().should('eq','Pago de servicios')
 
