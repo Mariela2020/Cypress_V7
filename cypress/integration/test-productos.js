@@ -29,6 +29,7 @@ describe('Tests Suites', function() {
         cy.get('#aceptaTerminos').click()
         cy.get('.btn-danger').click()
         cy.get('.title > :nth-child(2)').should('be.visible').and('contain','paso 3/3')
+        cy.wait(3000)
         cy.get('.btn').click()
         cy.title().should('eq','Pago de servicios')
         
