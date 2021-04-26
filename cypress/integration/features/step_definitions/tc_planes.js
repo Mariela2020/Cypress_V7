@@ -1,21 +1,27 @@
 import {Given, When, Then, And} from "cypress-cucumber-preprocessor/steps"
 
+const d = new Date
+const date = [d.getMonth() + 1,
+d.getDate(),
+d.getFullYear()].join('/') + ' ' +
+  [d.getHours(),
+  d.getMinutes(),
+  d.getSeconds()].join(':')
 
-Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
+Given('El usuario se encuentra en Gestion Corredor', () =>{
     cy.visit('https://ww2.toctoc.com/gestioncorredor/')
-    //cy.title().should('eq','TOCTOC.com - Gestión corredor - Planes de publicación')
-    
+    cy.title().should('eq','TOCTOC.com - Gestión corredor - Planes de publicación')
   });
 
-  And('Hace click sobre el botón Ver Planes',()=>{
+  And('Hace click en el botón Ver Planes',()=>{
     cy.get('.gCdesktop > :nth-child(2) > a').click()
   });
 
-  And('Visualiza la información del plan seleccionado y hace click al botón Contratar',()=>{
+  And('Selecciona el plan Inicia',()=>{
     cy.get('.inicia > .col-12 > .plan-btn > .btn').click({force:true})
   });
 
-  When('Registra el Usuario',()=>{
+  When('Registra datos del Usuario',()=>{
     cy.get('#nombreUser').type('Mariela Hurtado')
     cy.get('#telefonoUser').type('+56993947209')
     cy.get('#emailUser').type('hurtadomariela2@gmail.com')
@@ -23,7 +29,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
     cy.get('#nextStep').click()
   });
 
-  And('Llena los formularios con los campos solicitados',()=>{
+  And('Llena los formularios del contrato',()=>{
 
     cy.get('#razonSocial').type('Prueba de Flujo QA')
     cy.get('#rutFacturacion').clear().type('267008469')
@@ -40,14 +46,14 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
       
   });
 
-  And('Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC del Plan',()=>{
+  And('Aceptar los Términos y condiciones de TOCTOC',()=>{
     cy.get('#aceptaTerminos').click()
     cy.get('.btn-danger').click()
     cy.wait(3000)
 
   });
 
-  And('Visualizar el Detalle del contrato del plan a contratar',()=>{
+  And('Visualizar Detalle del contrato del plan a contratar',()=>{
 
     //cy.get('#verDetalle').click()
     cy.get('div.pago__Productos__Extra__detalle.contenedor-padre:nth-child(4) section.flujo__pago div.container.detallePago div.row.detalle__datos:nth-child(5) div.btn-next.col-12 a.btn.btn-danger.button.btn-block > span:nth-child(1)').click()
@@ -56,7 +62,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
       const totalrestxt= $valorelem.text()
       var totalres = totalrestxt
       cy.log(totalrestxt)        
-      cy.writeFile('fichero.txt', '\nTotal Resumen: ' +totalrestxt + ';  ' + Date(), {flag: 'a+'} )
+      cy.writeFile('fichero.txt', '\n\nTotal Resumen: ' +totalrestxt + ';  ' + date, {flag: 'a+'} )
     })
    
     cy.get('.modal-footer > .btn').click()
@@ -64,7 +70,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
   
   });
 
-  Then('Visualizar el Detalle de Pago y medio disponible', ()=>{
+  Then('Visualizar Detalle de Pago', ()=>{
      
     cy.url().should('include', 'https://ventas.toctoc.com/')
 
@@ -72,7 +78,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
         
       const productotxt= $valorelem.text()
       cy.log(productotxt)       
-      cy.writeFile('fichero.txt', '\nProducto: ' +productotxt + ';  ' + Date(), {flag: 'a+'} )
+      cy.writeFile('fichero.txt', '\n\nProducto: ' +productotxt + ';  ' + date, {flag: 'a+'} )
                 
     })
 
@@ -80,7 +86,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
       
       const preciotxt= $valorelem.text()
       cy.log(preciotxt)
-      cy.writeFile('fichero.txt', '\nPrecio del producto: ' +preciotxt + ';  ' + Date(), {flag: 'a+'} )
+      cy.writeFile('fichero.txt', '\nPrecio del producto: ' +preciotxt + ';  ' + date, {flag: 'a+'} )
                 
     })
     
@@ -88,25 +94,35 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
       
         const ivatxt= $valorelem.text()
         cy.log(ivatxt)             
-        cy.writeFile('fichero.txt', '\nValor del producto: ' +ivatxt + ';  ' + Date(), {flag: 'a+'} )
+        cy.writeFile('fichero.txt', '\nValor del producto: ' +ivatxt + ';  ' + date, {flag: 'a+'} )
                     
     })  
 
     cy.get('.total > strong').then(function($valorelem){
       
       const totaldetxt= $valorelem.text()
-      var totaldet = totaldetxt
+      //var totaldet = totaldetxt
       cy.log(totaldetxt)
       //const valoresp= '$29.99'
       //cy.log(totalres)
-      //expect(totalres).eq(totaldet)
-        
-      cy.writeFile('fichero.txt', '\nIva del producto: ' +totaldetxt + ';  ' + Date(), {flag: 'a+'} )
-  
+      //expect(totalres).eq(totaldet)     
+      cy.writeFile('fichero.txt', '\nIva del producto: ' +totaldetxt + ';  ' + date, {flag: 'a+'} )
     
   })  
 
+  And('Selecciona el plan Crece',()=>{
+    cy.get('.crece > .col-12 > .plan-btn > .btn').click({force:true})
+  });
+
+  And('Selecciona el plan Acelera',()=>{
+    cy.get('.acelera > .col-12 > .plan-btn > .btn').click({force:true})
+  });
+
+  And('Selecciona el plan Eacala',()=>{
+    cy.get('.acelera > .col-12 > .plan-btn > .btn').click({force:true})
+  });
+
+  
   });
  
   
- 

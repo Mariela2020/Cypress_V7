@@ -1,0 +1,128 @@
+valor del producto:  $29.459;  Wed Apr 21 2021 18:42:01 GMT-0400 (hora estándar de Chile)
+Producto: $ 35.056 CLP;  Wed Apr 21 2021 18:52:36 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Wed Apr 21 2021 18:52:40 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.459;  Wed Apr 21 2021 18:52:40 GMT-0400 (hora estándar de Chile)
+valor del producto: IVA: $5.597;  Wed Apr 21 2021 18:52:40 GMT-0400 (hora estándar de Chile)
+valor del producto: $35.056;  Wed Apr 21 2021 18:52:40 GMT-0400 (hora estándar de Chile)
+Producto: $ 35.056 CLP;  Wed Apr 21 2021 18:54:37 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Wed Apr 21 2021 18:54:41 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.459;  Wed Apr 21 2021 18:54:41 GMT-0400 (hora estándar de Chile)
+valor del producto: IVA: $5.597;  Wed Apr 21 2021 18:54:41 GMT-0400 (hora estándar de Chile)
+Producto: $ 35.056 CLP;  Wed Apr 21 2021 18:57:02 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Wed Apr 21 2021 18:57:05 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.459;  Wed Apr 21 2021 18:57:05 GMT-0400 (hora estándar de Chile)
+valor del producto: IVA: $5.597;  Wed Apr 21 2021 18:57:05 GMT-0400 (hora estándar de Chile)
+Producto: $ 35.056 CLP;  Wed Apr 21 2021 18:59:25 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Wed Apr 21 2021 18:59:28 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.459;  Wed Apr 21 2021 18:59:28 GMT-0400 (hora estándar de Chile)
+valor del producto: IVA: $5.597;  Wed Apr 21 2021 18:59:28 GMT-0400 (hora estándar de Chile)
+Producto: $ 35.056 CLP;  Wed Apr 21 2021 19:01:12 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Wed Apr 21 2021 19:01:14 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.459;  Wed Apr 21 2021 19:01:14 GMT-0400 (hora estándar de Chile)
+valor del producto: IVA: $5.597;  Wed Apr 21 2021 19:01:14 GMT-0400 (hora estándar de Chile)
+valor del producto: $35.056;  Wed Apr 21 2021 19:01:14 GMT-0400 (hora estándar de Chile)
+Total Resumen: $ 35.061 CLP;  Thu Apr 22 2021 14:02:47 GMT-0400 (hora estándar de Chile)
+Total Resumen: $ 35.061 CLP;  Thu Apr 22 2021 14:04:56 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Thu Apr 22 2021 14:05:04 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.463;  Thu Apr 22 2021 14:05:04 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $5.598;  Thu Apr 22 2021 14:05:04 GMT-0400 (hora estándar de Chile)
+Total Resumen: $ 35.061 CLP;  Thu Apr 22 2021 14:06:16 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Thu Apr 22 2021 14:06:19 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.463;  Thu Apr 22 2021 14:06:19 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $5.598;  Thu Apr 22 2021 14:06:19 GMT-0400 (hora estándar de Chile)
+Iva del producto: $35.061;  Thu Apr 22 2021 14:06:19 GMT-0400 (hora estándar de Chile)
+Total Resumen: $ 35.061 CLP;  Thu Apr 22 2021 14:15:27 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Thu Apr 22 2021 14:15:39 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.463;  Thu Apr 22 2021 14:15:39 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $5.598;  Thu Apr 22 2021 14:15:39 GMT-0400 (hora estándar de Chile)
+Iva del producto: $35.061;  Thu Apr 22 2021 14:15:39 GMT-0400 (hora estándar de Chile)
+Total Resumen: $ 35.061 CLP;  Thu Apr 22 2021 14:36:45 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Thu Apr 22 2021 14:37:21 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.463;  Thu Apr 22 2021 14:37:21 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $5.598;  Thu Apr 22 2021 14:37:21 GMT-0400 (hora estándar de Chile)
+Iva del producto: $35.061;  Thu Apr 22 2021 14:37:22 GMT-0400 (hora estándar de Chile)
+Total Resumen: $ 105.182 CLP;  Thu Apr 22 2021 14:37:56 GMT-0400 (hora estándar de Chile)
+Producto: Plan Acelera;  Thu Apr 22 2021 14:37:59 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $88.388;  Thu Apr 22 2021 14:37:59 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $16.794;  Thu Apr 22 2021 14:37:59 GMT-0400 (hora estándar de Chile)
+Iva del producto: $105.182;  Thu Apr 22 2021 14:37:59 GMT-0400 (hora estándar de Chile)
+Total Resumen: $ 35.065 CLP;  Fri Apr 23 2021 11:17:02 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Fri Apr 23 2021 11:17:06 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.467;  Fri Apr 23 2021 11:17:06 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $5.599;  Fri Apr 23 2021 11:17:06 GMT-0400 (hora estándar de Chile)
+Iva del producto: $35.066;  Fri Apr 23 2021 11:17:06 GMT-0400 (hora estándar de Chile)
+Total Resumen: $ 70.131 CLP;  Fri Apr 23 2021 11:17:19 GMT-0400 (hora estándar de Chile)
+Producto: Plan Crece;  Fri Apr 23 2021 11:17:21 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $58.933;  Fri Apr 23 2021 11:17:21 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $11.197;  Fri Apr 23 2021 11:17:21 GMT-0400 (hora estándar de Chile)
+Iva del producto: $70.130;  Fri Apr 23 2021 11:17:21 GMT-0400 (hora estándar de Chile)
+Total Resumen: $ 105.196 CLP;  Fri Apr 23 2021 11:17:35 GMT-0400 (hora estándar de Chile)
+Producto: Plan Acelera;  Fri Apr 23 2021 11:17:36 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $88.400;  Fri Apr 23 2021 11:17:36 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $16.796;  Fri Apr 23 2021 11:17:36 GMT-0400 (hora estándar de Chile)
+Iva del producto: $105.196;  Fri Apr 23 2021 11:17:36 GMT-0400 (hora estándar de Chile)
+
+Total Resumen: $ 35.079 CLP;  Mon Apr 26 2021 12:57:58 GMT-0400 (hora estándar de Chile)
+
+Producto: Plan Inicia;  Mon Apr 26 2021 12:58:02 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.478;  Mon Apr 26 2021 12:58:02 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $5.601;  Mon Apr 26 2021 12:58:02 GMT-0400 (hora estándar de Chile)
+Iva del producto: $35.079;  Mon Apr 26 2021 12:58:02 GMT-0400 (hora estándar de Chile)
+
+Total Resumen: $ 70.159 CLP;  Mon Apr 26 2021 12:58:16 GMT-0400 (hora estándar de Chile)
+
+Producto: Plan Crece;  Mon Apr 26 2021 12:58:18 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $58.957;  Mon Apr 26 2021 12:58:18 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $11.202;  Mon Apr 26 2021 12:58:18 GMT-0400 (hora estándar de Chile)
+Iva del producto: $70.159;  Mon Apr 26 2021 12:58:18 GMT-0400 (hora estándar de Chile)
+
+Total Resumen: $ 105.238 CLP;  Mon Apr 26 2021 12:58:35 GMT-0400 (hora estándar de Chile)
+
+Producto: Plan Acelera;  Mon Apr 26 2021 12:58:36 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $88.435;  Mon Apr 26 2021 12:58:36 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $16.803;  Mon Apr 26 2021 12:58:36 GMT-0400 (hora estándar de Chile)
+Iva del producto: $105.238;  Mon Apr 26 2021 12:58:36 GMT-0400 (hora estándar de Chile)
+
+Total Resumen: $ 105.238 CLP;  Mon Apr 26 2021 12:58:52 GMT-0400 (hora estándar de Chile)
+
+Producto: Plan Acelera;  Mon Apr 26 2021 12:58:53 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $88.435;  Mon Apr 26 2021 12:58:54 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $16.803;  Mon Apr 26 2021 12:58:54 GMT-0400 (hora estándar de Chile)
+Iva del producto: $105.238;  Mon Apr 26 2021 12:58:54 GMT-0400 (hora estándar de Chile)
+
+Total Resumen: $ 35.079 CLP;  4/26/2021 13:8:39
+
+Producto: Plan Inicia;  4/26/2021 13:8:39
+Precio del producto:  $29.478;  4/26/2021 13:8:39
+Valor del producto: IVA: $5.601;  4/26/2021 13:8:39
+Iva del producto: $35.079;  4/26/2021 13:8:39
+
+Total Resumen: $ 70.159 CLP;  4/26/2021 13:8:39
+
+Producto: Plan Crece;  4/26/2021 13:8:39
+Precio del producto:  $58.957;  4/26/2021 13:8:39
+Valor del producto: IVA: $11.202;  4/26/2021 13:8:39
+Iva del producto: $70.159;  4/26/2021 13:8:39
+
+Total Resumen: $ 105.238 CLP;  4/26/2021 13:8:39
+
+Producto: Plan Acelera;  4/26/2021 13:8:39
+Precio del producto:  $88.435;  4/26/2021 13:8:39
+Valor del producto: IVA: $16.803;  4/26/2021 13:8:39
+Iva del producto: $105.238;  4/26/2021 13:8:39
+
+Total Resumen: $ 105.238 CLP;  4/26/2021 13:8:39
+
+Producto: Plan Acelera;  4/26/2021 13:8:39
+Precio del producto:  $88.435;  4/26/2021 13:8:39
+Valor del producto: IVA: $16.803;  4/26/2021 13:8:39
+Iva del producto: $105.238;  4/26/2021 13:8:39
+Nombre del producto: Sauce Labs Backpack;  Mon Apr 26 2021 14:32:14 GMT-0400 (hora estándar de Chile)
+valor del producto: $29.99;  Mon Apr 26 2021 14:32:14 GMT-0400 (hora estándar de Chile)
+Nombre del producto: Sauce Labs Backpack;  Mon Apr 26 2021 14:32:57 GMT-0400 (hora estándar de Chile)
+valor del producto: $29.99;  Mon Apr 26 2021 14:32:57 GMT-0400 (hora estándar de Chile)
+Total Resumen: $ 35.079 CLP;  Mon Apr 26 2021 19:50:23 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Mon Apr 26 2021 19:50:24 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.478;  Mon Apr 26 2021 19:50:24 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $5.601;  Mon Apr 26 2021 19:50:25 GMT-0400 (hora estándar de Chile)
+Iva del producto: $35.079;  Mon Apr 26 2021 19:50:25 GMT-0400 (hora estándar de Chile)

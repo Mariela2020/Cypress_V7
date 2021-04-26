@@ -51,15 +51,64 @@ And('Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de 
 
 And('Hace click al botón Enviar', ()=>{
 
-    cy.get('.btn-danger').click() 
+    cy.get('.btn-danger').click({force: true}) 
 
 });
 
 Then('Se debe redireccionar al Detalle del contrato y visualizar medio de pago disponibles', ()=>{
 
-    cy.get('.title > :nth-child(2)').should('be.visible').and('contain','paso 3/3')
+  //  cy.get('.title > :nth-child(2)').should('be.visible').and('contain','paso 3/3')
+    
+    cy.get(':nth-child(2) > span.total').then(function($valorelem){
+        
+        const totalrestxt= $valorelem.text()
+        var totalres = totalrestxt
+        cy.log(totalrestxt)
+               
+        cy.writeFile('producto.txt', '\n\nTotal Resumen: ' +totalrestxt + ';  ' + Date(), {flag: 'a+'} )
+                  
+      }) 
+
     // cy.wait(3000)
     cy.get('.btn').click({force: true})
     cy.title().should('eq','Pago de servicios')
 
+    cy.get('.col-md-8 > :nth-child(2)').then(function($valorelem){
+        
+        const productotxt= $valorelem.text()
+        cy.log(productotxt)
+               
+        cy.writeFile('producto.txt', '\nProducto: ' + productotxt + ';  ' + Date(), {flag: 'a+'} )
+                  
+      })
+
+      cy.get('.body-process > :nth-child(2) > .row > .col-md-4 > .title-c').then(function($valorelem){
+      
+        const preciotxt= $valorelem.text()
+        cy.log(preciotxt)
+               
+        cy.writeFile('producto.txt', '\nPrecio: ' + preciotxt + ';  ' + Date(), {flag: 'a+'} )
+                  
+      })
+
+      cy.get(':nth-child(3) > .col-sm-12 > .title-c').then(function($valorelem){
+      
+        const ivatxt= $valorelem.text()
+        cy.log(ivatxt)
+               
+        cy.writeFile('producto.txt', '\nIva: ' + ivatxt + ';  ' + Date(), {flag: 'a+'} )
+                  
+      })
+
+      cy.get('.total > strong').then(function($valorelem){
+      
+        const totaldetxt= $valorelem.text()
+        cy.log(totaldetxt)
+               
+        cy.writeFile('producto.txt', '\nTotal: ' + totaldetxt + ';  ' + Date(), {flag: 'a+'} )
+                  
+      })
+
+
 });
+

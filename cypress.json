@@ -1,10 +1,10 @@
 {
   "experimentalNetworkStubbing": true,
   "chromeWebSecurity": false,
- 
-  "testFiles": "**/*.feature",
-    
+     
   "projectId": "ojf9ec",
-
+  
+  "testFiles": "**/*.feature",
+  
   "video":false
 }

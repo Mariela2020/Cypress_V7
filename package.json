@@ -25,11 +25,13 @@
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/integration/features/step_definitions/**/",
     "cucumberJson": {
-        "generate": true,
-        "outputFolder": "cypress/cucumber-report",
-        "filePrefix": "",
-        "fileSuffix": ".cucumber"
-      }
+      "generate": true,
+      "outputFolder": "cypress/cucumber-report",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
     }
+  },
+  "dependencies": {
+    "cypress-file-upload": "^5.0.6"
   }
-
+}
