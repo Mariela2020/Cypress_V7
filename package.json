@@ -31,7 +31,5 @@
       "fileSuffix": ".cucumber"
     }
   },
-  "dependencies": {
-    "cypress-file-upload": "^5.0.6"
-  }
+  "dependencies": {}
 }
