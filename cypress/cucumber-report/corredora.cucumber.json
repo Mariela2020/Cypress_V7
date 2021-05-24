@@ -28,7 +28,7 @@
             "name": "El usuario se encuentra en la página de Gestión Corredor y Hace click sobre el Entrar",
             "result": {
               "status": "passed",
-              "duration": 26748000000
+              "duration": 24141000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "Debe iniciar cuenta con credenciales de corredor valido",
             "result": {
               "status": "passed",
-              "duration": 11586000000
+              "duration": 13416000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "Hace click sobre el link Producto",
             "result": {
               "status": "passed",
-              "duration": 180000000
+              "duration": 505000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "Visualiza los productos y selecciona la tarjeta del producto a contratar",
             "result": {
               "status": "passed",
-              "duration": 648000000
+              "duration": 744000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "Cuando el usuario Selecciona el producto a Contratar",
             "result": {
               "status": "passed",
-              "duration": 1144000000
+              "duration": 1096000000
             }
           },
           {
@@ -78,7 +78,7 @@
             "name": "Se verifica los datos almacenado en cada formulario",
             "result": {
               "status": "passed",
-              "duration": 3248000000
+              "duration": 3416000000
             }
           },
           {
@@ -88,7 +88,7 @@
             "name": "Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC",
             "result": {
               "status": "passed",
-              "duration": 150000000
+              "duration": 296000000
             }
           },
           {
@@ -98,7 +98,7 @@
             "name": "Hace click al botón Enviar",
             "result": {
               "status": "passed",
-              "duration": 120000000
+              "duration": 224000000
             }
           },
           {
@@ -108,7 +108,7 @@
             "name": "Se debe redireccionar al Detalle del contrato y visualizar medio de pago disponibles",
             "result": {
               "status": "passed",
-              "duration": 5351000000
+              "duration": 5476000000
             }
           }
         ]
@@ -133,7 +133,7 @@
             "name": "El usuario se encuentra en la página de Gestion Corredor",
             "result": {
               "status": "passed",
-              "duration": 3625000000
+              "duration": 4745000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "Hace click sobre el botón Ver Planes",
             "result": {
               "status": "passed",
-              "duration": 140000000
+              "duration": 167000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "Visualiza la información del plan seleccionado y hace click al botón Contratar",
             "result": {
               "status": "passed",
-              "duration": 780000000
+              "duration": 1612000000
             }
           },
           {
@@ -163,7 +163,7 @@
             "name": "Registra el Usuario",
             "result": {
               "status": "passed",
-              "duration": 1916000000
+              "duration": 2286000000
             }
           },
           {
@@ -173,7 +173,7 @@
             "name": "Llena los formularios con los campos solicitados",
             "result": {
               "status": "passed",
-              "duration": 4708000000
+              "duration": 5975000000
             }
           },
           {
@@ -183,7 +183,7 @@
             "name": "Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC del Plan",
             "result": {
               "status": "passed",
-              "duration": 3329000000
+              "duration": 3496000000
             }
           },
           {
@@ -193,7 +193,7 @@
             "name": "Visualizar el Detalle del contrato del plan a contratar",
             "result": {
               "status": "passed",
-              "duration": 2691000000
+              "duration": 2974000000
             }
           },
           {
@@ -203,7 +203,7 @@
             "name": "Visualizar el Detalle de Pago y medio disponible",
             "result": {
               "status": "passed",
-              "duration": 280000000
+              "duration": 617000000
             }
           }
         ]

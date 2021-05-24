@@ -8,11 +8,11 @@ Feature: Catalogo de Planes - Productos Marketing
       And Debe iniciar cuenta con credenciales de corredor valido
       And Hace click sobre el link Producto
       And Visualiza los productos y selecciona la tarjeta del producto a contratar
-    When Cuando el usuario Selecciona el producto a Contratar
+     When Cuando el usuario Selecciona el producto a Contratar
       And Se verifica los datos almacenado en cada formulario
       And Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC
       And Hace click al botón Enviar
-    Then Se debe redireccionar al Detalle del contrato y visualizar medio de pago disponibles  
+     Then Se debe redireccionar al Detalle del contrato y visualizar medio de pago disponibles  
 
  @planes
   Scenario: Ingresar al catalogo de planes en la página Gestion Corredor y Contratar un servicio
