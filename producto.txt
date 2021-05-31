@@ -99,3 +99,9 @@ Producto: Propiedad destacada;  Mon May 24 2021 09:01:20 GMT-0400 (hora estánda
 Precio:  $23.669;  Mon May 24 2021 09:01:20 GMT-0400 (hora estándar de Chile)
 Iva: IVA: $4.497;  Mon May 24 2021 09:01:20 GMT-0400 (hora estándar de Chile)
 Total: $28.166;  Mon May 24 2021 09:01:20 GMT-0400 (hora estándar de Chile)
+
+Total Resumen: $  17.620 CLP;  Mon May 31 2021 10:24:39 GMT-0400 (hora estándar de Chile)
+Producto: Propiedad destacada;  Mon May 31 2021 10:24:43 GMT-0400 (hora estándar de Chile)
+Precio:  $14.807;  Mon May 31 2021 10:24:43 GMT-0400 (hora estándar de Chile)
+Iva: IVA: $2.813;  Mon May 31 2021 10:24:43 GMT-0400 (hora estándar de Chile)
+Total: $17.620;  Mon May 31 2021 10:24:43 GMT-0400 (hora estándar de Chile)
