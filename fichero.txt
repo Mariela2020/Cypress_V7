@@ -146,3 +146,13 @@ Producto: Plan Inicia;  Mon May 31 2021 10:25:04 GMT-0400 (hora estándar de Chi
 Precio del producto:  $29.613;  Mon May 31 2021 10:25:04 GMT-0400 (hora estándar de Chile)
 Valor del producto: IVA: $5.627;  Mon May 31 2021 10:25:04 GMT-0400 (hora estándar de Chile)
 Iva del producto: $35.240;  Mon May 31 2021 10:25:05 GMT-0400 (hora estándar de Chile)
+Total Resumen: $  35.244 CLP;  Tue Jun 01 2021 16:51:03 GMT-0400 (hora estándar de Chile)
+Producto: Plan Inicia;  Tue Jun 01 2021 16:51:05 GMT-0400 (hora estándar de Chile)
+Precio del producto:  $29.617;  Tue Jun 01 2021 16:51:05 GMT-0400 (hora estándar de Chile)
+Valor del producto: IVA: $5.627;  Tue Jun 01 2021 16:51:05 GMT-0400 (hora estándar de Chile)
+Iva del producto: $35.244;  Tue Jun 01 2021 16:51:05 GMT-0400 (hora estándar de Chile)
+Total Resumen: $  35.244 CLP;  1-6-2021  17:1:35
+Producto: Plan Inicia;  1-6-2021  17:1:35
+Precio del producto:  $29.617;  1-6-2021  17:1:35
+Valor del producto: IVA: $5.627;  1-6-2021  17:1:35
+Iva del producto: $35.244;  1-6-2021  17:1:35

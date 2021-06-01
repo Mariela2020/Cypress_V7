@@ -26,7 +26,14 @@ Feature: Catalogo de Planes - Productos Marketing
      Then Visualizar el Detalle de Pago y medio disponible
 
 
- 
+  @corredora
+  Scenario: Ingresar al catalogo de corredoras en la página Gestion Corredor, filtrar por nombre y visita una ficha de propiedad 
+     Given El usuario se encuentra en la página Gestion Corredor 
+      And Hace click sobre el Menú Principal Corredoras - Catalogo de Corredoras 
+      And Busca Corredora por nombre y hace click al botón buscar
+     When Visualiza las propiedades de la corredora
+      And Filtra por Región y Comuna
+     Then Visualiza la ficha de la primera propiedad
 
 
 

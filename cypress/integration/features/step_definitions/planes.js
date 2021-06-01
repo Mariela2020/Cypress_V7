@@ -1,5 +1,13 @@
 import {Given, When, Then, And} from "cypress-cucumber-preprocessor/steps"
 
+const d = new Date
+const date = [d.getDate(),
+d.getMonth() + 1,
+d.getFullYear()].join('-') 
+
+const hora = [d.getHours(),
+  d.getMinutes(),
+  d.getSeconds()].join(':')
 
 Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
     cy.visit('https://ww2.toctoc.com/gestioncorredor/')
@@ -56,7 +64,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
       const totalrestxt= $valorelem.text()
       var totalres = totalrestxt
       cy.log(totalrestxt)        
-      cy.writeFile('fichero.txt', '\nTotal Resumen: ' +totalrestxt + ';  ' + Date(), {flag: 'a+'} )
+      cy.writeFile('fichero.txt', '\n\nTotal Resumen: ' +totalrestxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
     })
    
     cy.get('.modal-footer > .btn').click()
@@ -72,7 +80,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
         
       const productotxt= $valorelem.text()
       cy.log(productotxt)       
-      cy.writeFile('fichero.txt', '\nProducto: ' +productotxt + ';  ' + Date(), {flag: 'a+'} )
+      cy.writeFile('fichero.txt', '\nProducto: ' +productotxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
                 
     })
 
@@ -80,7 +88,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
       
       const preciotxt= $valorelem.text()
       cy.log(preciotxt)
-      cy.writeFile('fichero.txt', '\nPrecio del producto: ' +preciotxt + ';  ' + Date(), {flag: 'a+'} )
+      cy.writeFile('fichero.txt', '\nPrecio del producto: ' +preciotxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
                 
     })
     
@@ -88,7 +96,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
       
         const ivatxt= $valorelem.text()
         cy.log(ivatxt)             
-        cy.writeFile('fichero.txt', '\nValor del producto: ' +ivatxt + ';  ' + Date(), {flag: 'a+'} )
+        cy.writeFile('fichero.txt', '\nValor del producto: ' +ivatxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
                     
     })  
 
@@ -101,7 +109,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
       //cy.log(totalres)
       //expect(totalres).eq(totaldet)
         
-      cy.writeFile('fichero.txt', '\nIva del producto: ' +totaldetxt + ';  ' + Date(), {flag: 'a+'} )
+      cy.writeFile('fichero.txt', '\nIva del producto: ' +totaldetxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
   
     
   })  

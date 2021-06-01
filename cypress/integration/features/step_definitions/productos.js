@@ -1,5 +1,14 @@
 import {Given, When, Then, And} from "cypress-cucumber-preprocessor/steps"
 
+const d = new Date
+const date = [d.getDate(),
+d.getMonth() + 1,
+d.getFullYear()].join('-') 
+
+const hora = [d.getHours(),
+  d.getMinutes(),
+  d.getSeconds()].join(':')
+
 
 Given('El usuario se encuentra en la página de Gestión Corredor y Hace click sobre el Entrar', () =>{
     cy.visit('https://ww2.toctoc.com/gestioncorredor/') 
@@ -11,7 +20,7 @@ And('Debe iniciar cuenta con credenciales de corredor valido', ()=>{
     cy.get('.menu__section--profile > a').click()
     cy.intercept("${ssoGatewayUrl}/**").as('sso')
     cy.get('#email').type('hurtadomariela2@gmail.com')
-    cy.get('#password').type('prueba')
+    cy.get('#password').type('prueba',{sensitive: true})
     cy.get('.btn > span').click()
     cy.get('[href="https://sso.toctoc.com/?o=gc&url=aHR0cDovL3d3Mi50b2N0b2MuY29tL2dlc3Rpb25jb3JyZWRvci8="]').should('be.visible').and('contain','hurtadomarie')  
     
@@ -65,7 +74,7 @@ Then('Se debe redireccionar al Detalle del contrato y visualizar medio de pago d
         var totalres = totalrestxt
         cy.log(totalrestxt)
                
-        cy.writeFile('producto.txt', '\n\nTotal Resumen: ' +totalrestxt + ';  ' + Date(), {flag: 'a+'} )
+        cy.writeFile('producto.txt', '\n\nTotal Resumen: ' +totalrestxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
                   
       }) 
 
@@ -78,7 +87,7 @@ Then('Se debe redireccionar al Detalle del contrato y visualizar medio de pago d
         const productotxt= $valorelem.text()
         cy.log(productotxt)
                
-        cy.writeFile('producto.txt', '\nProducto: ' + productotxt + ';  ' + Date(), {flag: 'a+'} )
+        cy.writeFile('producto.txt', '\nProducto: ' + productotxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
                   
       })
 
@@ -87,7 +96,7 @@ Then('Se debe redireccionar al Detalle del contrato y visualizar medio de pago d
         const preciotxt= $valorelem.text()
         cy.log(preciotxt)
                
-        cy.writeFile('producto.txt', '\nPrecio: ' + preciotxt + ';  ' + Date(), {flag: 'a+'} )
+        cy.writeFile('producto.txt', '\nPrecio: ' + preciotxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
                   
       })
 
@@ -96,7 +105,7 @@ Then('Se debe redireccionar al Detalle del contrato y visualizar medio de pago d
         const ivatxt= $valorelem.text()
         cy.log(ivatxt)
                
-        cy.writeFile('producto.txt', '\nIva: ' + ivatxt + ';  ' + Date(), {flag: 'a+'} )
+        cy.writeFile('producto.txt', '\nIva: ' + ivatxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
                   
       })
 
@@ -105,7 +114,7 @@ Then('Se debe redireccionar al Detalle del contrato y visualizar medio de pago d
         const totaldetxt= $valorelem.text()
         cy.log(totaldetxt)
                
-        cy.writeFile('producto.txt', '\nTotal: ' + totaldetxt + ';  ' + Date(), {flag: 'a+'} )
+        cy.writeFile('producto.txt', '\nTotal: ' + totaldetxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
                   
       })
 
