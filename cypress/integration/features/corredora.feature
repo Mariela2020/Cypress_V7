@@ -28,7 +28,7 @@ Feature: Catalogo de Planes - Productos Marketing
 
   @corredora
   Scenario: Ingresar al catalogo de corredoras en la página Gestion Corredor, filtrar por nombre y visita una ficha de propiedad 
-     Given El usuario se encuentra en la página Gestion Corredor 
+    Given El usuario se encuentra en la página Gestion Corredor 
       And Hace click sobre el Menú Principal Corredoras - Catalogo de Corredoras 
       And Busca Corredora por nombre y hace click al botón buscar
      When Visualiza las propiedades de la corredora

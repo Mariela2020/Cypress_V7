@@ -71,7 +71,7 @@ Then('Se debe redireccionar al Detalle del contrato y visualizar medio de pago d
     cy.get(':nth-child(2) > span.total').then(function($valorelem){
         
         const totalrestxt= $valorelem.text()
-        var totalres = totalrestxt
+       // var totalres = totalrestxt
         cy.log(totalrestxt)
                
         cy.writeFile('producto.txt', '\n\nTotal Resumen: ' +totalrestxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )

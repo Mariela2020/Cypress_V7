@@ -21,6 +21,9 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
 
   And('Visualiza la información del plan seleccionado y hace click al botón Contratar',()=>{
     cy.get('.inicia > .col-12 > .plan-btn > .btn').click({force:true})
+    var precioUF = 1
+    precioUF = { precioUF : (precioUF)};
+    cy.writeFile('cypress/fixtures/dataprecio.json', precioUF);
   });
 
   When('Registra el Usuario',()=>{
@@ -58,63 +61,84 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
   And('Visualizar el Detalle del contrato del plan a contratar',()=>{
 
     //cy.get('#verDetalle').click()
-    cy.get('div.pago__Productos__Extra__detalle.contenedor-padre:nth-child(4) section.flujo__pago div.container.detallePago div.row.detalle__datos:nth-child(5) div.btn-next.col-12 a.btn.btn-danger.button.btn-block > span:nth-child(1)').click()
-   // cy.get('.modal-footer > .btn').click()
-    cy.get(':nth-child(2) > span.total').then(function($valorelem){    
-      const totalrestxt= $valorelem.text()
-      var totalres = totalrestxt
-      cy.log(totalrestxt)        
-      cy.writeFile('fichero.txt', '\n\nTotal Resumen: ' +totalrestxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
-    })
-   
-    cy.get('.modal-footer > .btn').click()
-    //cy.get('.btn-danger').click()  
-  
-  });
-
-  Then('Visualizar el Detalle de Pago y medio disponible', ()=>{
+    
+    cy.get('.item-flex > span.total').then(function($valorelem){    
+    const totalrestxt= $valorelem.text()
+    var totalres1= parseFloat(totalrestxt)
+         
+    cy.fixture('dataprecio').then((dataprecio) => {
+      var precio = dataprecio.precioUF
+      var precio1 = parseFloat(precio)
+      var ivaUF = (precio1*0.19).toFixed(2)
+      var precioesp= Number(precio1) + Number(ivaUF)
      
-    cy.url().should('include', 'https://ventas.toctoc.com/')
+      expect(totalres1, "El Total del Resumen obtenido debe ser igual al Total esperado").eq(precioesp)
 
-    cy.get('.col-md-8 > :nth-child(2)').then(function($valorelem){
-        
-      const productotxt= $valorelem.text()
-      cy.log(productotxt)       
-      cy.writeFile('fichero.txt', '\nProducto: ' +productotxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
-                
-    })
-
-    cy.get('.body-process > :nth-child(2) > .row > .col-md-4 > .title-c').then(function($valorelem){
-      
-      const preciotxt= $valorelem.text()
-      cy.log(preciotxt)
-      cy.writeFile('fichero.txt', '\nPrecio del producto: ' +preciotxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
-                
     })
     
-    cy.get(':nth-child(3) > .col-sm-12 > .title-c').then(function($valorelem){
-      
-        const ivatxt= $valorelem.text()
-        cy.log(ivatxt)             
-        cy.writeFile('fichero.txt', '\nValor del producto: ' +ivatxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
-                    
-    })  
+    cy.writeFile('fichero.txt', '\n\nTotal Resumen: ' + totalrestxt + '; ' + date + '  ' + hora, {flag: 'a+'} )
+    cy.get('.btn > span').click({force:true}) 
+    cy.get('.modal-footer > .btn').click()
+  })
+})
 
-    cy.get('.total > strong').then(function($valorelem){
+Then('Visualizar el Detalle de Pago y medio disponible',()=>{
+  cy.url().should('include', 'https://ventas.toctoc.com/')
+  cy.get('.detalle > :nth-child(1) > .text').then(function($valorelem){
+    const productotxt= $valorelem.text()  
+    cy.writeFile('fichero.txt', '\nProducto: ' +productotxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
+  })
+
+  cy.get('.desktop > .title-c').then(function($valorelem){
+    const preciotxt= $valorelem.text()
+    var precio_obt = preciotxt.substring(11)
+    var precio_obt1 = parseFloat(precio_obt)
+
+    cy.fixture('dataprecio').then((dataprecio) => {
+      var precio = dataprecio.precioUF
+
+      expect(precio_obt1, "El Precio obtenido debe ser igual al Precio esperado").eq(precio)
       
-      const totaldetxt= $valorelem.text()
-      var totaldet = totaldetxt
-      cy.log(totaldetxt)
-      //const valoresp= '$29.99'
-      //cy.log(totalres)
-      //expect(totalres).eq(totaldet)
-        
-      cy.writeFile('fichero.txt', '\nIva del producto: ' +totaldetxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
+      cy.writeFile('fichero.txt', '\n' + preciotxt + ';  ' + date + '  ' + hora, { flag: 'a+' })
+
+    })
+    
+  }) 
   
-    
-  })  
+  cy.get('.iva > .col-sm-12 > .title-c').then(function($valorelem){  
+    const ivatxt= $valorelem.text() 
+    var ivaobt= ivatxt.substring(8)
+    var ivaobt1= ivaobt.replace(/,/g,'.')
+    var ivaobt2= parseFloat(ivaobt1)
+                 
+    cy.fixture('dataprecio').then((dataprecio) => {
+      var precioUF = dataprecio.precioUF
+      var ivauf = (precioUF*0.19).toFixed(2)
+      var ivauf1= parseFloat(ivauf)
+      
+      expect(ivaobt2, "El Iva obtenido debe ser igual al Iva esperado").eq(ivauf1)   
+      cy.writeFile('fichero.txt', '\n' +ivatxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
 
-  });
+    })
+  })
+
+  cy.get('.total > strong').then(function($valorelem){
+    const totaldetxt= $valorelem.text()
+    var totaldet = totaldetxt.substring(3)
+    var totaldet1= totaldet.replace(/,/g,'.')
+    var totaldet2= parseFloat(totaldet1)
+  
+    cy.fixture('datatotal1.json').then((datatotal) =>{
+      var totalrestxt1 = datatotal.totalres
+      var totalrestxt2= parseFloat(totalrestxt1)
+
+      expect(totaldet2, "El Total obtenido debe ser igual al Total del Resumen").eq(totalrestxt2)
+      cy.writeFile('fichero.txt', '\nTotal del producto: ' +totaldetxt + ';  ' + date + '  ' + hora, {flag: 'a+'} )
+    
+    })
+  })  
+}) 
+
  
   
  

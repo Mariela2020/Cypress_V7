@@ -156,3 +156,22 @@ Producto: Plan Inicia;  1-6-2021  17:1:35
 Precio del producto:  $29.617;  1-6-2021  17:1:35
 Valor del producto: IVA: $5.627;  1-6-2021  17:1:35
 Iva del producto: $35.244;  1-6-2021  17:1:35
+
+Total Resumen: 1.19 UF ;  7-6-2021  16:18:28
+
+Total Resumen: 1.19 UF ;  7-6-2021  16:25:35
+Producto: Plan Inicia;  7-6-2021  16:25:35
+Precio del producto: Precio: UF 1;  7-6-2021  16:25:35
+Valor del producto: Iva: UF 0,19;  7-6-2021  16:25:35
+
+Total Resumen: 1.19 UF ;  7-6-2021  16:28:7
+Producto: Plan Inicia;  7-6-2021  16:28:7
+Precio del producto: Precio: UF 1;  7-6-2021  16:28:7
+Valor del producto: Iva: UF 0,19;  7-6-2021  16:28:7
+Iva del producto:  UF 1,19;  7-6-2021  16:28:7
+
+Total Resumen: 1.19 UF ; 7-6-2021  16:35:19
+Producto: Plan Inicia;  7-6-2021  16:35:19
+Precio: UF 1;  7-6-2021  16:35:19
+Iva: UF 0,19;  7-6-2021  16:35:19
+Total del producto:  UF 1,19;  7-6-2021  16:35:19
