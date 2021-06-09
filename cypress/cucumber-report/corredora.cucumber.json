@@ -9,206 +9,6 @@
     "uri": "corredora.feature",
     "elements": [
       {
-        "id": "catalogo-de-planes---productos-marketing;ingresar-al-catologo-de-productos-markenting-en-la-página-gestión-corredor-y-contratar-un-servicio",
-        "keyword": "Scenario",
-        "line": 6,
-        "name": "Ingresar al catologo de productos Markenting en la página Gestión Corredor y Contratar un servicio",
-        "tags": [
-          {
-            "name": "@producto",
-            "line": 5
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "El usuario se encuentra en la página de Gestión Corredor y Hace click sobre el Entrar",
-            "result": {
-              "status": "passed",
-              "duration": 26718000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "Debe iniciar cuenta con credenciales de corredor valido",
-            "result": {
-              "status": "passed",
-              "duration": 13446000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "Hace click sobre el link Producto",
-            "result": {
-              "status": "passed",
-              "duration": 202000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "Visualiza los productos y selecciona la tarjeta del producto a contratar",
-            "result": {
-              "status": "passed",
-              "duration": 611000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "Cuando el usuario Selecciona el producto a Contratar",
-            "result": {
-              "status": "passed",
-              "duration": 2517000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "Se verifica los datos almacenado en cada formulario",
-            "result": {
-              "status": "passed",
-              "duration": 3296000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 13,
-            "name": "Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC",
-            "result": {
-              "status": "passed",
-              "duration": 153000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
-            "name": "Hace click al botón Enviar",
-            "result": {
-              "status": "passed",
-              "duration": 138000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 15,
-            "name": "Se debe redireccionar al Detalle del contrato y visualizar medio de pago disponibles",
-            "result": {
-              "status": "passed",
-              "duration": 7196000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "catalogo-de-planes---productos-marketing;ingresar-al-catalogo-de-planes-en-la-página-gestion-corredor-y-contratar-un-servicio",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "Ingresar al catalogo de planes en la página Gestion Corredor y Contratar un servicio",
-        "tags": [
-          {
-            "name": "@planes",
-            "line": 17
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 19,
-            "name": "El usuario se encuentra en la página de Gestion Corredor",
-            "result": {
-              "status": "passed",
-              "duration": 3940000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 20,
-            "name": "Hace click sobre el botón Ver Planes",
-            "result": {
-              "status": "passed",
-              "duration": 131000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "Visualiza la información del plan seleccionado y hace click al botón Contratar",
-            "result": {
-              "status": "passed",
-              "duration": 2250000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 22,
-            "name": "Registra el Usuario",
-            "result": {
-              "status": "passed",
-              "duration": 1863000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 23,
-            "name": "Llena los formularios con los campos solicitados",
-            "result": {
-              "status": "passed",
-              "duration": 7073000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 24,
-            "name": "Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC del Plan",
-            "result": {
-              "status": "passed",
-              "duration": 3382000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 25,
-            "name": "Visualizar el Detalle del contrato del plan a contratar",
-            "result": {
-              "status": "passed",
-              "duration": 2902000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 26,
-            "name": "Visualizar el Detalle de Pago y medio disponible",
-            "result": {
-              "status": "passed",
-              "duration": 537000000
-            }
-          }
-        ]
-      },
-      {
         "id": "catalogo-de-planes---productos-marketing;ingresar-al-catalogo-de-corredoras-en-la-página-gestion-corredor,-filtrar-por-nombre-y-visita-una-ficha-de-propiedad",
         "keyword": "Scenario",
         "line": 30,
@@ -228,7 +28,7 @@
             "name": "El usuario se encuentra en la página Gestion Corredor",
             "result": {
               "status": "passed",
-              "duration": 3307000000
+              "duration": 3687000000
             }
           },
           {
@@ -238,7 +38,7 @@
             "name": "Hace click sobre el Menú Principal Corredoras - Catalogo de Corredoras",
             "result": {
               "status": "passed",
-              "duration": 3392000000
+              "duration": 2788000000
             }
           },
           {
@@ -248,7 +48,7 @@
             "name": "Busca Corredora por nombre y hace click al botón buscar",
             "result": {
               "status": "passed",
-              "duration": 3587000000
+              "duration": 3632000000
             }
           },
           {
@@ -258,7 +58,7 @@
             "name": "Visualiza las propiedades de la corredora",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 34000000
             }
           },
           {
@@ -268,7 +68,7 @@
             "name": "Filtra por Región y Comuna",
             "result": {
               "status": "passed",
-              "duration": 1044000000
+              "duration": 1242000000
             }
           },
           {
@@ -278,7 +78,7 @@
             "name": "Visualiza la ficha de la primera propiedad",
             "result": {
               "status": "passed",
-              "duration": 6541000000
+              "duration": 4338000000
             }
           }
         ]

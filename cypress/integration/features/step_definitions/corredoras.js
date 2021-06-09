@@ -24,8 +24,10 @@ Given('El usuario se encuentra en la página Gestion Corredor', () =>{
           newUrl = url;
         });
     })
-
+    
     cy.get('.sld-item').eq(-4).click()
+    //cy.get('.tipo').eq(-4).click()
+    cy.wait(1000)
     cy.get('@windowOpen').should('be.called');
     cy.visit(newUrl)
 
