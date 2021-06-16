@@ -54,7 +54,7 @@ Given('El usuario se encuentra en la página de Gestion Corredor', () =>{
   And('Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC del Plan',()=>{
     cy.get('#aceptaTerminos').click()
     cy.get('.btn-danger').click()
-    cy.wait(3000)
+    cy.wait(4000)
 
   });
 

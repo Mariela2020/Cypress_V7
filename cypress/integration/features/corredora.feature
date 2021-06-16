@@ -25,7 +25,6 @@ Feature: Catalogo de Planes - Productos Marketing
       And Visualizar el Detalle del contrato del plan a contratar
      Then Visualizar el Detalle de Pago y medio disponible
 
-
   @corredora
   Scenario: Ingresar al catalogo de corredoras en la página Gestion Corredor, filtrar por nombre y visita una ficha de propiedad 
     Given El usuario se encuentra en la página Gestion Corredor 

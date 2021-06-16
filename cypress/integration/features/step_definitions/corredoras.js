@@ -1,6 +1,5 @@
 import {Given, When, Then, And} from "cypress-cucumber-preprocessor/steps"
 
-
 Given('El usuario se encuentra en la página Gestion Corredor', () =>{
     cy.visit('https://ww2.toctoc.com/gestioncorredor/')
     cy.title().should('eq','TOCTOC.com - Gestión corredor - Planes de publicación')
@@ -25,12 +24,21 @@ Given('El usuario se encuentra en la página Gestion Corredor', () =>{
         });
     })
     
-    cy.get('.sld-item').eq(-4).click()
+   /* cy.get('.sld-item').then($fichas => {
+    
+      const fichaCount = $fichas.length;
+      for (let i=0; i < fichaCount; i++) {
+        cy.get('.sld-item').eq(i).click()
+        cy.contains('Acom').click()
+      }
+    }) */ 
+
+    cy.get('.sld-item').eq(-4).click({force: true})
     //cy.get('.tipo').eq(-4).click()
     cy.wait(1000)
     cy.get('@windowOpen').should('be.called');
     cy.visit(newUrl)
-
+    cy.wait(1000)
   });
 
   When('Visualiza las propiedades de la corredora',()=>{
@@ -42,6 +50,7 @@ Given('El usuario se encuentra en la página Gestion Corredor', () =>{
     cy.get('#region').select('13')
     cy.get('#comuna').select('337')
     cy.get('#btnBusca').click()
+    cy.wait(1000)
     cy.get('[tabindex="0"] > .lnk-info > .c-infores > .info-body > .region').should('contain.text', 'Providencia')
 
   })
@@ -52,7 +61,7 @@ Given('El usuario se encuentra en la página Gestion Corredor', () =>{
         cy.stub(win, 'open').as('windowOpen');
        });
     
-      cy.get('.sld-item').first().click()   
+      cy.get('.sld-item').first().click({force:true})   
       cy.get('@windowOpen').should('be.calledWith', Cypress.sinon.match.string).then(stub => {
         cy.visit(stub.args[0][0]);
        // stub.restore;

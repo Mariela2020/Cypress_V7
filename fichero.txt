@@ -175,3 +175,33 @@ Producto: Plan Inicia;  7-6-2021  16:35:19
 Precio: UF 1;  7-6-2021  16:35:19
 Iva: UF 0,19;  7-6-2021  16:35:19
 Total del producto:  UF 1,19;  7-6-2021  16:35:19
+
+Total Resumen: 1.19 UF ; 10-6-2021  18:30:50
+Producto: Plan Inicia;  10-6-2021  18:30:50
+Precio: UF 1;  10-6-2021  18:30:50
+Iva: UF 0,19;  10-6-2021  18:30:50
+Total del producto:  UF 1,19;  10-6-2021  18:30:50
+
+Total Resumen: 1.19 UF ; 16-6-2021  11:16:11
+Producto: Plan Inicia;  16-6-2021  11:16:11
+Precio: UF 1;  16-6-2021  11:16:11
+Iva: UF 0,19;  16-6-2021  11:16:11
+Total del producto:  UF 1,19;  16-6-2021  11:16:11
+
+Total Resumen: 1.19 UF ; 16-6-2021  11:28:20
+Producto: Plan Inicia;  16-6-2021  11:28:20
+Precio: UF 1;  16-6-2021  11:28:20
+Iva: UF 0,19;  16-6-2021  11:28:20
+Total del producto:  UF 1,19;  16-6-2021  11:28:20
+
+Total Resumen: 1.19 UF ; 16-6-2021  18:42:48
+Producto: Plan Inicia;  16-6-2021  18:42:48
+Precio: UF 1;  16-6-2021  18:42:48
+Iva: UF 0,19;  16-6-2021  18:42:48
+Total del producto:  UF 1,19;  16-6-2021  18:42:48
+
+Total Resumen: 1.19 UF ; 16-6-2021  18:45:59
+Producto: Plan Inicia;  16-6-2021  18:45:59
+Precio: UF 1;  16-6-2021  18:45:59
+Iva: UF 0,19;  16-6-2021  18:45:59
+Total del producto:  UF 1,19;  16-6-2021  18:45:59

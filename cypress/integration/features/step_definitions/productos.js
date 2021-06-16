@@ -22,6 +22,7 @@ And('Debe iniciar cuenta con credenciales de corredor valido', ()=>{
     cy.get('#email').type('hurtadomariela2@gmail.com')
     cy.get('#password').type('prueba',{sensitive: true})
     cy.get('.btn > span').click()
+    cy.wait(2000)
     cy.get('[href="https://sso.toctoc.com/?o=gc&url=aHR0cDovL3d3Mi50b2N0b2MuY29tL2dlc3Rpb25jb3JyZWRvci8="]').should('be.visible').and('contain','hurtadomarie')  
     
 });
@@ -47,6 +48,9 @@ And('Se verifica los datos almacenado en cada formulario', ()=>{
 
     cy.get('.title > :nth-child(2)').should('be.visible').and('contain','paso 1/3')
     cy.wait(3000)
+    cy.get('#razonSocial').should('be.visible')
+    //.and('contain','Prueba de Flujo QA')
+    cy.wait(1000)
     cy.get('#nextStep').click()
     cy.get('.title > :nth-child(2)').should('be.visible').and('contain','paso 2/3')
     
@@ -61,7 +65,7 @@ And('Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de 
 And('Hace click al botón Enviar', ()=>{
 
     cy.get('.btn-danger').click({force: true}) 
-
+    cy.wait(3000)
 });
 
 Then('Se debe redireccionar al Detalle del contrato y visualizar medio de pago disponibles', ()=>{
