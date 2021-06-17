@@ -28,7 +28,7 @@
             "name": "El usuario se encuentra en la página de Gestión Corredor y Hace click sobre el Entrar",
             "result": {
               "status": "passed",
-              "duration": 4452000000
+              "duration": 27084000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "Debe iniciar cuenta con credenciales de corredor valido",
             "result": {
               "status": "passed",
-              "duration": 12022000000
+              "duration": 15471000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "Hace click sobre el link Producto",
             "result": {
               "status": "passed",
-              "duration": 161000000
+              "duration": 286000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "Visualiza los productos y selecciona la tarjeta del producto a contratar",
             "result": {
               "status": "passed",
-              "duration": 931000000
+              "duration": 946000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "Cuando el usuario Selecciona el producto a Contratar",
             "result": {
               "status": "passed",
-              "duration": 1795000000
+              "duration": 4047000000
             }
           },
           {
@@ -77,9 +77,8 @@
             "line": 12,
             "name": "Se verifica los datos almacenado en cada formulario",
             "result": {
-              "status": "failed",
-              "duration": 7080000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: expected '<input#razonSocial.form-control.mb-2>' to contain 'Prueba de Flujo QA'\n    at Context.eval (https://ww2.toctoc.com/__cypress/tests?p=cypress\\integration\\features\\corredora.feature:424:47)\n    at Context.resolveAndRunStepDefinition (https://ww2.toctoc.com/__cypress/tests?p=cypress\\integration\\features\\corredora.feature:11155:29)\n    at Context.eval (https://ww2.toctoc.com/__cypress/tests?p=cypress\\integration\\features\\corredora.feature:10501:35)"
+              "status": "passed",
+              "duration": 4401000000
             }
           },
           {
@@ -88,7 +87,8 @@
             "line": 13,
             "name": "Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 266000000
             }
           },
           {
@@ -97,7 +97,8 @@
             "line": 14,
             "name": "Hace click al botón Enviar",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 4214000000
             }
           },
           {
@@ -106,7 +107,8 @@
             "line": 15,
             "name": "Se debe redireccionar al Detalle del contrato y visualizar medio de pago disponibles",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5225000000
             }
           }
         ]
@@ -131,7 +133,7 @@
             "name": "El usuario se encuentra en la página de Gestion Corredor",
             "result": {
               "status": "passed",
-              "duration": 2287000000
+              "duration": 4367000000
             }
           },
           {
@@ -141,7 +143,7 @@
             "name": "Hace click sobre el botón Ver Planes",
             "result": {
               "status": "passed",
-              "duration": 161000000
+              "duration": 153000000
             }
           },
           {
@@ -151,7 +153,7 @@
             "name": "Visualiza la información del plan seleccionado y hace click al botón Contratar",
             "result": {
               "status": "passed",
-              "duration": 1627000000
+              "duration": 2023000000
             }
           },
           {
@@ -161,7 +163,7 @@
             "name": "Registra el Usuario",
             "result": {
               "status": "passed",
-              "duration": 1841000000
+              "duration": 1945000000
             }
           },
           {
@@ -171,7 +173,7 @@
             "name": "Llena los formularios con los campos solicitados",
             "result": {
               "status": "passed",
-              "duration": 6303000000
+              "duration": 5514000000
             }
           },
           {
@@ -181,7 +183,7 @@
             "name": "Tilda el checkbox Declaro conocer y aceptar los Términos y condiciones de TOCTOC del Plan",
             "result": {
               "status": "passed",
-              "duration": 4358000000
+              "duration": 4463000000
             }
           },
           {
@@ -191,7 +193,7 @@
             "name": "Visualizar el Detalle del contrato del plan a contratar",
             "result": {
               "status": "passed",
-              "duration": 4909000000
+              "duration": 5626000000
             }
           },
           {
@@ -201,7 +203,7 @@
             "name": "Visualizar el Detalle de Pago y medio disponible",
             "result": {
               "status": "passed",
-              "duration": 456000000
+              "duration": 863000000
             }
           }
         ]
@@ -226,7 +228,7 @@
             "name": "El usuario se encuentra en la página Gestion Corredor",
             "result": {
               "status": "passed",
-              "duration": 3450000000
+              "duration": 4080000000
             }
           },
           {
@@ -236,7 +238,7 @@
             "name": "Hace click sobre el Menú Principal Corredoras - Catalogo de Corredoras",
             "result": {
               "status": "passed",
-              "duration": 3764000000
+              "duration": 3922000000
             }
           },
           {
@@ -246,7 +248,7 @@
             "name": "Busca Corredora por nombre y hace click al botón buscar",
             "result": {
               "status": "passed",
-              "duration": 4650000000
+              "duration": 6383000000
             }
           },
           {
@@ -256,7 +258,7 @@
             "name": "Visualiza las propiedades de la corredora",
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 25000000
             }
           },
           {
@@ -266,7 +268,7 @@
             "name": "Filtra por Región y Comuna",
             "result": {
               "status": "passed",
-              "duration": 3429000000
+              "duration": 1985000000
             }
           },
           {
@@ -276,7 +278,7 @@
             "name": "Visualiza la ficha de la primera propiedad",
             "result": {
               "status": "passed",
-              "duration": 5564000000
+              "duration": 6687000000
             }
           }
         ]
