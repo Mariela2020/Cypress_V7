@@ -6,9 +6,10 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:chrome": "cypress run -- spec 'cypress/integration/test-newpage.js'",
     "cy:run:firefox": "cypress run --browser firefox",
-    "cy:run:dashboard": "cypress run --browser chrome --record --key 1f59ceae-3fd6-40e5-9073-5c8d1aba265d"
+    "cy:run:dashboard": "cypress run --browser chrome --spec 'cypress/integration/features/corredora.feature' --record --key 1f59ceae-3fd6-40e5-9073-5c8d1aba265d --reporter mochawesome",
+    "save:results": "cypress run --spec 'cypress/integration/features/reporte.feature'"
   },
   "keywords": [
     "Cypress",
@@ -25,11 +26,13 @@
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/integration/features/step_definitions/**/",
     "cucumberJson": {
-      "generate": true,
+      "generate": false,
       "outputFolder": "cypress/cucumber-report",
       "filePrefix": "",
       "fileSuffix": ".cucumber"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "mochawesome": "^6.2.2"
+  }
 }

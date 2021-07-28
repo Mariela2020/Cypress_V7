@@ -1,0 +1,38 @@
+[
+  {
+    "description": "  Como usuario quiero visualizar las Métricas de las Pruebas Automatizadas en un Reporte.",
+    "keyword": "Feature",
+    "name": "Data Reporte",
+    "line": 1,
+    "id": "data-reporte",
+    "tags": [],
+    "uri": "reporte.feature",
+    "elements": [
+      {
+        "id": "data-reporte;obtiene-las-métricas-del-reporte",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Obtiene las Métricas del Reporte",
+        "tags": [
+          {
+            "name": "@Gestion",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Obtiene y registra las metricas",
+            "result": {
+              "status": "passed",
+              "duration": 1837000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

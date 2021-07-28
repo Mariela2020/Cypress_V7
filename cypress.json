@@ -4,8 +4,15 @@
      
   "projectId": "ojf9ec",
   
-  "testFiles": "**/*.{feature,features}",
- 
+  "testFiles": "**/*.feature",
+   
+  "video":false,
   
-  "video":false
+  "reporter": "mochawesome",
+  "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": true,
+      "html": false,
+      "json": true
+    }
 }

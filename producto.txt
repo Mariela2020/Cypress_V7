@@ -159,3 +159,27 @@ Producto: Propiedad destacada;  17-6-2021  10:37:45
 Precio:  $23.737;  17-6-2021  10:37:45
 Iva: IVA: $4.510;  17-6-2021  10:37:45
 Total: $28.247;  17-6-2021  10:37:45
+
+Total Resumen: $  28.325 CLP;  26-7-2021  14:43:45
+Producto: Propiedad destacada;  26-7-2021  14:43:45
+Precio:  $23.802;  26-7-2021  14:43:45
+Iva: IVA: $4.522;  26-7-2021  14:43:45
+Total: $28.324;  26-7-2021  14:43:45
+
+Total Resumen: $  28.327 CLP;  28-7-2021  14:50:9
+Producto: Propiedad destacada;  28-7-2021  14:50:9
+Precio:  $23.804;  28-7-2021  14:50:9
+Iva: IVA: $4.523;  28-7-2021  14:50:9
+Total: $28.327;  28-7-2021  14:50:9
+
+Total Resumen: $  28.327 CLP;  28-7-2021  17:15:46
+Producto: Propiedad destacada;  28-7-2021  17:15:46
+Precio:  $23.804;  28-7-2021  17:15:46
+Iva: IVA: $4.523;  28-7-2021  17:15:46
+Total: $28.327;  28-7-2021  17:15:46
+
+Total Resumen: $  28.327 CLP;  28-7-2021  19:0:12
+Producto: Propiedad destacada;  28-7-2021  19:0:12
+Precio:  $23.804;  28-7-2021  19:0:12
+Iva: IVA: $4.523;  28-7-2021  19:0:12
+Total: $28.327;  28-7-2021  19:0:12
