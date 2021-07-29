@@ -247,3 +247,15 @@ Producto: Plan Inicia;  28-7-2021  19:0:12
 Precio: UF 1;  28-7-2021  19:0:12
 Iva: UF 0,19;  28-7-2021  19:0:12
 Total del producto:  UF 1,19;  28-7-2021  19:0:12
+
+Total Resumen: 1.19 UF ; 28-7-2021  19:49:59
+Producto: Plan Inicia;  28-7-2021  19:49:59
+Precio: UF 1;  28-7-2021  19:49:59
+Iva: UF 0,19;  28-7-2021  19:49:59
+Total del producto:  UF 1,19;  28-7-2021  19:49:59
+
+Total Resumen: 1.19 UF ; 28-7-2021  20:2:41
+Producto: Plan Inicia;  28-7-2021  20:2:41
+Precio: UF 1;  28-7-2021  20:2:41
+Iva: UF 0,19;  28-7-2021  20:2:41
+Total del producto:  UF 1,19;  28-7-2021  20:2:41

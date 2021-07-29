@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2021-07-28T23:20:50.698Z",
-    "end": "2021-07-28T23:20:51.320Z",
-    "duration": 622,
+    "failures": 0,
+    "start": "2021-07-29T00:04:41.526Z",
+    "end": "2021-07-29T00:04:43.307Z",
+    "duration": 1781,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b67cb1e4-98c2-4b06-87fc-28d72953e3f6",
+      "uuid": "e2f613bf-85bb-478c-abf3-4ce203c25b01",
       "title": "",
       "fullFile": "cypress\\integration\\features\\reporte.feature",
       "file": "cypress\\integration\\features\\reporte.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6933f7d2-960f-45ff-abf4-d367d40efb32",
+          "uuid": "fbed7373-9d49-48a6-aed5-0fba34269812",
           "title": "Data Reporte",
           "fullFile": "",
           "file": "",
@@ -38,33 +38,29 @@
               "title": "Obtiene las Métricas del Reporte",
               "fullTitle": "Data Reporte Obtiene las Métricas del Reporte",
               "timedOut": null,
-              "duration": 562,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 1755,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
-              "err": {
-                "message": "TypeError: Cannot read property 'duration' of undefined",
-                "estack": "TypeError: Cannot read property 'duration' of undefined\n    at Context.eval (http://localhost:60588/__cypress/tests?p=cypress\\integration\\features\\reporte.feature:502:53)",
-                "diff": null
-              },
-              "uuid": "a578b366-42e8-4d39-9a1c-308f81ee1590",
-              "parentUUID": "6933f7d2-960f-45ff-abf4-d367d40efb32",
+              "err": {},
+              "uuid": "f27381b0-2b7c-48c3-b52c-6df97e6f70c7",
+              "parentUUID": "fbed7373-9d49-48a6-aed5-0fba34269812",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "a578b366-42e8-4d39-9a1c-308f81ee1590"
+          "passes": [
+            "f27381b0-2b7c-48c3-b52c-6df97e6f70c7"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 562,
+          "duration": 1755,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
